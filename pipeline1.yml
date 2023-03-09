@@ -3,7 +3,7 @@ trigger:
 - master
 
 pool: 
-  name: selfagent
+  name: default 
 
 steps:
 - script: echo Hello, world!
