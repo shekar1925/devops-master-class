@@ -2,8 +2,8 @@
 trigger:
 - master
 
-pool:
-  vmImage: selfagent
+pool: 
+  name: selfagent
 
 steps:
 - script: echo Hello, world!
